@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(230,230,230);
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+}
+
+h2 {
+  color: #b30000;
+  font-size: 20px;
+  line-height: 0.8;
+}
+
+h1 {
+  color: black;
+  font-size: 26px;
+  line-height: 0.8;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a{
+color: grey;
+opacity: 0.6;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 15px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+
